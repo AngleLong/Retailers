@@ -21,3 +21,20 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    //app版本号
+    appVersionCode = 1
+    appVersionName = "1.0"
+    //network 类库的版本号
+    netWorkVersionCode = 1
+    netWorkVersionName = "1.0"
+    //公共版本号
+    compileSdkVersion = 25
+    buildToolsVersion = "25.0.2"
+    minSdkVersion = 16
+    targetSdkVersion = 25
+    supportVersion = "25.3.1"
+    androidTestCompileVersion = "2.2.2"
+    junitVersion = "4.12"
+}
